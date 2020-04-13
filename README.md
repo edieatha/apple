@@ -1,8 +1,8 @@
 # Positioning and floating elements
 
-> New York times article clone page
+> Apple clone page
 
-![screenshot](./newyorktimes.jpg)
+![screenshot](./apple.png)
 
 Additional description about the project and its features.
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://practical-curie-65d145.netlify.com)
 
 
 ## Getting Started
@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Visit repository
 
-### Download Repository (git@github.com:edieatha/newyorktimes.git)
+### Download Repository (git@github.com:edieatha/apple.git)
 
 ### Open index.html
 
@@ -43,17 +43,11 @@ To get a local copy up and running follow these simple example steps.
 - Linkedin: [linkedin](https://www.linkedin.com/in/edieatha/)
 
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/gabrie-lhilarion)
-- Twitter: [@twitterhandle](https://twitter.com/gabrieldeman)
-- Linkedin: [linkedin](https://linkedin.com/gabrieldeman)
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/edieatha/newyorktimes/issues).
+Feel free to check the [issues page](https://github.com/edieatha/apple/issues).
 
 ## Show your support
 
