@@ -8,205 +8,205 @@ a {
 }
 
 main {
-	position: relative;
-	margin: 0 auto;
-	max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 #top {
-	display: block;
-	background-color: greenyellow;
-	min-height: 65px;
-	}
+  background-color: greenyellow;
+  display: block;
+  min-height: 65px;
+}
+
+#globalheader {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC') no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));	
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  display: block;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  height: 36px;
+  margin: 0 auto;
+  position: relative;
+  top: 88px;
+  width: 980px;
+}
+
+#globalheader #globalnav {
+  display: table;
+  position: relative;
+  right: 4%;
+  table-layout: fixed;
+  width: 845px;
+}
+
+#globalheader #globalnav li {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
 	
-	#globalheader {
-		height: 36px;
-		width: 980px;
-		box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-		display: block;
-		border-radius: 4px;
-		position: relative;
-		top: 88px;
-		margin: 0 auto;
-		font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-		background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC') no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));	
-	}
-	
-	#globalheader #globalnav {
-		display: table;
-		table-layout: fixed;
-		width: 845px;
-		position: relative;
-		right: 4%
-	}
-	
-	#globalheader #globalnav li {
-		display: table-cell;
-		width: 100%;
-		overflow: hidden;
-		
-	}
-	
-	#globalheader #globalnav li a {
-		text-decoration: none;
-		text-indent: -9999px;
-		width: 102px;
-		height: 36px;
-		float: left;
-		overflow: hidden;
-		border-style: solid;
-		border-width: 0 1px 0 0px;
-		border-color: rgb(95, 95, 95);
-		
-	
-	}
-	a:hover {
-		background: rgb(0,0,0);
-	background: radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.4500175070028011) 0%, rgba(75,75,75,0.43040966386554624) 100%);
-	}
-	
-	#globalheader #globalnav li a span {
-		display: block;
-		width: 100%;
-		height: 30px;
-		margin: 3px auto;
-		background: url("../images/globalnav_text.png");
-		background-repeat: no-repeat;
-		background-position: 50% 0;
-	}
-	
-	
-	#globalheader #globalnav li#gn-apple a span {
-		background-position: 50% 0;
-	}
-	
-	#globalheader #globalnav li#gn-store a span {
-		background-position: 50% -30px;
-	}
-	
-	#globalheader #globalnav li#gn-mac a span {
-		background-position: 50% -60px;
-	}
-	
-	#globalheader #globalnav li#gn-ipod a span {
-		background-position: 50% -90px;
-	}
-	
-	#globalheader #globalnav li#gn-iphone a span {
-		background-position: 50% -120px;
-	}
-	
-	#globalheader #globalnav li#gn-ipad a span {
-		background-position: 50% -150px;
-	}
-	
-	#globalheader #globalnav li#gn-itunes a span {
-		background-position: 50% -180px;
-	}
-	
-	#globalheader #globalnav li#gn-support a span {
-		background-position: 50% -210px;
-	}
-	
-	#globalheader #globalsearch {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 100px;
-		margin-left: 20px;
-		background: none;
-		border-width: 0 2px 0 1px;
-		background-color: rgba(255,255,255,.1);
-		border-radius: 12px;
-		box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
-		margin-top: 7px;
-		margin-right: 18px;
-	}
-	
-	#globalheader #globalsearch form div img {
-		vertical-align: text-bottom;
-		margin-left: 6px;
-	}
-	ul {
-		list-style: none;
-	}
+}
+
+#globalheader #globalnav li a {
+	text-decoration: none;
+	text-indent: -9999px;
+	width: 102px;
+	height: 36px;
+	float: left;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 0 1px 0 0px;
+	border-color: rgb(95, 95, 95);
 	
 
-.heading {
-	text-align: center;
+}
+a:hover {
+	background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.4500175070028011) 0%, rgba(75,75,75,0.43040966386554624) 100%);
+}
+
+#globalheader #globalnav li a span {
+	display: block;
 	width: 100%;
-	margin-bottom: 10px;
-	padding-top: 120px;
+	height: 30px;
+	margin: 3px auto;
+	background: url("../images/globalnav_text.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+}
+
+
+#globalheader #globalnav li#gn-apple a span {
+	background-position: 50% 0;
+}
+
+#globalheader #globalnav li#gn-store a span {
+	background-position: 50% -30px;
+}
+
+#globalheader #globalnav li#gn-mac a span {
+	background-position: 50% -60px;
+}
+
+#globalheader #globalnav li#gn-ipod a span {
+	background-position: 50% -90px;
+}
+
+#globalheader #globalnav li#gn-iphone a span {
+	background-position: 50% -120px;
+}
+
+#globalheader #globalnav li#gn-ipad a span {
+	background-position: 50% -150px;
+}
+
+#globalheader #globalnav li#gn-itunes a span {
+	background-position: 50% -180px;
+}
+
+#globalheader #globalnav li#gn-support a span {
+	background-position: 50% -210px;
+}
+
+#globalheader #globalsearch {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	margin-left: 20px;
+	background: none;
+	border-width: 0 2px 0 1px;
+	background-color: rgba(255,255,255,.1);
+	border-radius: 12px;
+	box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+	margin-top: 7px;
+	margin-right: 18px;
+}
+
+#globalheader #globalsearch form div img {
+	vertical-align: text-bottom;
+	margin-left: 6px;
+}
+ul {
+	list-style: none;
+}
+
+
+.heading {
+text-align: center;
+width: 100%;
+margin-bottom: 10px;
+padding-top: 120px;
 }
 
 .summary {
-	text-align: center;
-	width: 100%;	
+text-align: center;
+width: 100%;	
 }
 
 .watch {
-	text-align: center;
-	width: 100%;
+text-align: center;
+width: 100%;
 }
 
 .top-container {
-	background-image: url("../images/your_verse_hero.jpg");
-	height: 550px;
-	background-position: bottom;
+background-image: url("../images/your_verse_hero.jpg");
+height: 550px;
+background-position: bottom;
 }
 
 .bottom-container {
-	display: flex;
+display: flex;
 }
 
 .bottom-container div {
-	border-style: solid;
-	border-color: white;
-	border-width: 0.8px;
+border-style: solid;
+border-color: white;
+border-width: 0.8px;
 
 }
 
 .bottom-container img {
-	height: 165px;
-	width: 100%;
-	object-fit: fill;
-	
+height: 165px;
+width: 100%;
+object-fit: fill;
+
 }
 
 footer .footer-top {
-	display: flex;
-	font-size: 0.6rem;
-	margin: auto;
-	width: 1100px;
-	height: 20px;
+display: flex;
+font-size: 0.6rem;
+margin: auto;
+width: 1100px;
+height: 20px;
 }
 
 footer .footer-top ul {
-	list-style: none;
-	display: inline-flex;
+list-style: none;
+display: inline-flex;
 }
 
 footer .footer-top ul li a {
-   border-right: #665237;
-   border-right-style: solid;
-   border-right-width: 0.7px;
-   padding: 0 5px;
-   
+border-right: #665237;
+border-right-style: solid;
+border-right-width: 0.7px;
+padding: 0 5px;
+
 }
 
 footer .footer-top .country {
-   padding: 10px;
-	
+padding: 10px;
+
 }
 
 footer {
-	position: relative;
-	margin: 0 auto;
-	max-width: 1200px;
+position: relative;
+margin: 0 auto;
+max-width: 1200px;
 }
 
 aside {
-	position: relative;
-	margin: 0 auto;
-	max-width: 1200px;
+position: relative;
+margin: 0 auto;
+max-width: 1200px;
 }
