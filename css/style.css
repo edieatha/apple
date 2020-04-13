@@ -19,7 +19,7 @@ main {
   min-height: 65px;
 }
 
-#globalheader {
+.globalheader {
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC') no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));	
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
@@ -32,7 +32,7 @@ main {
   width: 980px;
 }
 
-#globalheader #globalnav {
+.globalheader .globalnav {
   display: table;
   position: relative;
   right: 4%;
@@ -40,13 +40,13 @@ main {
   width: 845px;
 }
 
-#globalheader #globalnav li {
+.globalheader .globalnav li {
   display: table-cell;
   overflow: hidden;
   width: 100%;
 }
 
-#globalheader #globalnav li a {
+.globalheader .globalnav li a {
   border-color: rgb(95, 95, 95);
   border-style: solid;
   border-width: 0 1px 0 0;
@@ -58,12 +58,12 @@ main {
   width: 102px;
 }
 
-a:hover {
-  background: rgb(0,0,0);
+.globalheader .globalnav a:hover {
+  background: rgb(0, 0, 0);
   background: radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.4500175070028011) 0%, rgba(75,75,75,0.43040966386554624) 100%);
 }
 
-#globalheader #globalnav li a span {
+.globalheader .globalnav li a span {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background: url("../images/globalnav_text.png");
@@ -73,42 +73,41 @@ a:hover {
   width: 100%;
 }
 
-
-#globalheader #globalnav li#gn-apple a span {
+.globalheader .globalnav .gn-apple a span {
   background-position: 50% 0;
 }
 
-#globalheader #globalnav li#gn-store a span {
+.globalheader .globalnav .gn-store a span {
   background-position: 50% -30px;
 }
 
-#globalheader #globalnav li#gn-mac a span {
+.globalheader .globalnav .gn-mac a span {
   background-position: 50% -60px;
 }
 
-#globalheader #globalnav li#gn-ipod a span {
+.globalheader .globalnav .gn-ipod a span {
   background-position: 50% -90px;
 }
 
-#globalheader #globalnav li#gn-iphone a span {
+.globalheader .globalnav .gn-iphone a span {
   background-position: 50% -120px;
 }
 
-#globalheader #globalnav li#gn-ipad a span {
+.globalheader .globalnav .gn-ipad a span {
   background-position: 50% -150px;
 }
 
-#globalheader #globalnav li#gn-itunes a span {
+.globalheader .globalnav .gn-itunes a span {
   background-position: 50% -180px;
 }
 
-#globalheader #globalnav li#gn-support a span {
+.globalheader .globalnav .gn-support a span {
   background-position: 50% -210px;
 }
 
-#globalheader #globalsearch {
-  background-color: rgba(255, 255, 255, .1);
+.globalheader .globalsearch {
   background: none;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   border-width: 0 2px 0 1px;
   box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
@@ -121,7 +120,7 @@ a:hover {
   width: 100px;
 }
 
-#globalheader #globalsearch form div img {
+.globalheader .globalsearch form div img {
   margin-left: 6px;
   vertical-align: text-bottom;
 }
@@ -131,15 +130,15 @@ ul {
 }
 
 .heading {
-  text-align: center;
-  width: 100%;
   margin-bottom: 10px;
   padding-top: 120px;
+  text-align: center;
+  width: 100%;
 }
 
 .summary {
   text-align: center;
-  width: 100%;	
+  width: 100%;
 }
 
 .watch {
@@ -149,8 +148,8 @@ ul {
 
 .top-container {
   background-image: url("../images/your_verse_hero.jpg");
-  height: 550px;
   background-position: bottom;
+  height: 550px;
 }
 
 .bottom-container {
@@ -165,43 +164,42 @@ ul {
 
 .bottom-container img {
   height: 165px;
-  width: 100%;
   object-fit: fill;
+  width: 100%;
 }
 
 footer .footer-top {
   display: flex;
   font-size: 0.6rem;
+  height: 20px;
   margin: auto;
   width: 1100px;
-  height: 20px;
 }
 
 footer .footer-top ul {
-  list-style: none;
   display: inline-flex;
+  list-style: none;
 }
 
 footer .footer-top ul li a {
-  border-right: #665237;
   border-right-style: solid;
   border-right-width: 0.7px;
+  border-right: #665237;
   padding: 0 5px;
 }
 
 footer .footer-top .country {
   padding: 10px;
-
 }
 
 footer {
-  position: relative;
   margin: 0 auto;
   max-width: 1200px;
+  position: relative;
 }
 
 aside {
-  position: relative;
   margin: 0 auto;
   max-width: 1200px;
+  position: relative;
 }
