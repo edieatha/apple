@@ -7,6 +7,35 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 5em;
+  font-weight: 200;
+}
+
+h3 {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: initial;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: initial;
+  text-align: center;
+}
+
+.top-container .watch a img {
+  vertical-align: middle;
+}
+
 main {
   margin: 0 auto;
   max-width: 1200px;
@@ -120,15 +149,19 @@ footer .footer-top ul li a {
   width: 100px;
 }
 
-.bottom-container img {
-  height: 165px;
-  object-fit: fill;
-  width: 100%;
+.g-search .magnify {
+  color: white;
+  width: 80px;
 }
 
-.globalheader .globalsearch form div img {
-  margin-left: 6px;
-  vertical-align: text-bottom;
+.globalheader .globalsearch .magnify {
+  background-color: transparent;
+  background-image: url("../images/search-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 12px;
+  border-style: none;
+  padding-left: 20px;
 }
 
 ul {
@@ -138,11 +171,6 @@ ul {
 .heading {
   margin-bottom: 10px;
   padding-top: 120px;
-  text-align: center;
-  width: 100%;
-}
-
-.summary {
   text-align: center;
   width: 100%;
 }
@@ -195,4 +223,40 @@ aside {
   margin: 0 auto;
   max-width: 1200px;
   position: relative;
+}
+
+.iPhone5s {
+  background-image: url("../images/iphone5s.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.iPhone5c {
+  background-image: url("../images/iphone5c.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.birthday {
+  background-image: url("../images/promo_30_years.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.responsibility {
+  background-image: url("../images/supplier_responsibility.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
 }
