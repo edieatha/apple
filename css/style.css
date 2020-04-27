@@ -1,0 +1,262 @@
+body {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 5em;
+  font-weight: 200;
+}
+
+h3 {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: initial;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-family: 'Assistant', sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: initial;
+  text-align: center;
+}
+
+.top-container .watch a img {
+  vertical-align: middle;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+.globalheader {
+  background: url("../images/navbar.png");
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  display: block;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  height: 36px;
+  margin: 0 auto;
+  position: relative;
+  top: 88px;
+  width: 980px;
+}
+
+.globalheader .globalnav {
+  display: table;
+  position: relative;
+  right: 4%;
+  table-layout: fixed;
+  width: 845px;
+}
+
+.globalheader .globalnav li {
+  display: table-cell;
+  overflow: hidden;
+  width: 100%;
+}
+
+footer .footer-top ul li a {
+  border-right: #665237;
+  border-right-style: solid;
+  border-right-width: 0.7px;
+  padding: 0 5px;
+}
+
+.globalheader .globalnav li a {
+  border-color: rgb(95, 95, 95);
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  float: left;
+  height: 36px;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 9999px;
+  width: 102px;
+}
+
+.globalheader .globalnav a:hover {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4500175070028011) 0%, rgba(75, 75, 75, 0.43040966386554624) 100%);
+}
+
+.globalheader .globalnav li a span {
+  background-image: url("../images/globalnav_text.png");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  display: block;
+  height: 30px;
+  margin: 3px auto;
+  width: 100%;
+}
+
+.globalheader .globalnav .gn-apple a span {
+  background-position: 50% 0;
+}
+
+.globalheader .globalnav .gn-store a span {
+  background-position: 50% -30px;
+}
+
+.globalheader .globalnav .gn-mac a span {
+  background-position: 50% -60px;
+}
+
+.globalheader .globalnav .gn-ipod a span {
+  background-position: 50% -90px;
+}
+
+.globalheader .globalnav .gn-iphone a span {
+  background-position: 50% -120px;
+}
+
+.globalheader .globalnav .gn-ipad a span {
+  background-position: 50% -150px;
+}
+
+.globalheader .globalnav .gn-itunes a span {
+  background-position: 50% -180px;
+}
+
+.globalheader .globalnav .gn-support a span {
+  background-position: 50% -210px;
+}
+
+.globalheader .globalsearch {
+  background: none;
+  border-radius: 12px;
+  border-width: 0 2px 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+  margin-left: 20px;
+  margin-right: 18px;
+  margin-top: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+}
+
+.g-search .magnify {
+  color: white;
+  width: 80px;
+}
+
+.globalheader .globalsearch .magnify {
+  background-color: transparent;
+  background-image: url("../images/search-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 12px;
+  border-style: none;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.heading {
+  margin-bottom: 10px;
+  padding-top: 120px;
+  text-align: center;
+  width: 100%;
+}
+
+.watch {
+  text-align: center;
+  width: 100%;
+}
+
+.top-container {
+  background-image: url("../images/your_verse_hero.jpg");
+  background-position: bottom;
+  height: 550px;
+}
+
+.bottom-container {
+  display: flex;
+}
+
+.bottom-container div {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.8px;
+}
+
+footer .footer-top {
+  display: flex;
+  font-size: 0.6rem;
+  height: 20px;
+  margin: auto;
+  width: 1100px;
+}
+
+footer .footer-top ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+footer .footer-top .country {
+  padding: 10px;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+aside {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+.iPhone5s {
+  background-image: url("../images/iphone5s.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.iPhone5c {
+  background-image: url("../images/iphone5c.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.birthday {
+  background-image: url("../images/promo_30_years.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.responsibility {
+  background-image: url("../images/supplier_responsibility.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
